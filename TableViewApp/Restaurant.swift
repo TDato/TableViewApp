@@ -7,3 +7,25 @@
 //
 
 import Foundation
+
+class Restaurant {
+    enum `Type`: String {
+        case bakery = "bakery"
+        case sitdown = "sitdown"
+        case cafe = "cafe"
+        case foodtruck = "foodtruck"
+        case icecream = "icecream"
+    }
+    
+    var name: String
+    var type: Type
+    var shortDescription: String
+    var longDescription: String
+    
+    init(name: String, type: Type, shortDesc: String, longDesc: String) {
+        self.name = name
+        self.type = type
+        self.shortDescription = shortDesc
+        self.longDescription = longDesc
+    }
+}
