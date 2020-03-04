@@ -43,6 +43,17 @@ class RestaurantTableViewController: UITableViewController {
         return cell
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailViewController = segue.destination as? DetailViewController
+            else {return}
+        guard let cell = sender as? UITableViewCell
+            else {return}
+        guard let indexPath = self.tableView.indexPath(for: cell)
+            else {return}
+        
+        detailViewController.restaurant = restaurants[indexPath.row]
+        
+    }
 
     /*
     // Override to support conditional editing of the table view.

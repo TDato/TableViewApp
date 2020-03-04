@@ -14,6 +14,7 @@
 		656D92E2240F0E55008157CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656D92E0240F0E55008157CE /* LaunchScreen.storyboard */; };
 		656D92EA240F0F13008157CE /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D92E9240F0F12008157CE /* RestaurantTableViewController.swift */; };
 		656D92EC240F0FC0008157CE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D92EB240F0FC0008157CE /* Restaurant.swift */; };
+		65CBC9D4240F3728001A14CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CBC9D3240F3728001A14CE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		656D92E3240F0E55008157CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656D92E9240F0F12008157CE /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		656D92EB240F0FC0008157CE /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		65CBC9D3240F3728001A14CE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				656D92D5240F0E53008157CE /* AppDelegate.swift */,
 				656D92D7240F0E53008157CE /* SceneDelegate.swift */,
 				656D92DB240F0E53008157CE /* Main.storyboard */,
+				65CBC9D3240F3728001A14CE /* DetailViewController.swift */,
 				656D92DE240F0E55008157CE /* Assets.xcassets */,
 				656D92E0240F0E55008157CE /* LaunchScreen.storyboard */,
 				656D92E3240F0E55008157CE /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				656D92EC240F0FC0008157CE /* Restaurant.swift in Sources */,
 				656D92D6240F0E53008157CE /* AppDelegate.swift in Sources */,
+				65CBC9D4240F3728001A14CE /* DetailViewController.swift in Sources */,
 				656D92D8240F0E53008157CE /* SceneDelegate.swift in Sources */,
 				656D92EA240F0F13008157CE /* RestaurantTableViewController.swift in Sources */,
 			);
